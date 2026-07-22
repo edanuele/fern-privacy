@@ -16,19 +16,38 @@
 </head>
 <body>
 <h1>Fern — Privacy Policy</h1>
-<p class="muted">Last updated: 3 June 2026</p>
+<p class="muted">Last updated: 8 July 2026</p>
 
 <p>Fern is a manual-entry budget tracker for Android and iOS. It is built so that
 your financial information never leaves your device.</p>
 
 <h2>What we collect</h2>
 <p>Nothing. Fern has no account system, no sign-up, no ads, and no analytics or
-tracking. We do not collect, transmit, or have access to any of your data.</p>
+tracking. We do not collect, transmit, or have access to any of your data. The
+only requests Fern ever makes are anonymous look-ups of public market prices,
+described under <a href="#prices">Investment prices</a> below.</p>
 
 <h2>Where your data lives</h2>
-<p>Every transaction, account, budget, category, recurring bill, and savings goal
-you enter is stored only on your own device. Fern works fully offline and makes
-no network connections — there are no Fern servers that receive your information.</p>
+<p>Every transaction, account, budget, category, recurring bill, savings goal, and
+investment you enter is stored only on your own device. There are no Fern
+servers, and nothing you enter is ever uploaded. Fern works fully offline; the one
+exception is described next.</p>
+
+<h2 id="prices">Investment prices</h2>
+<p>If you track investments, Fern can look up current prices so what you own
+stays up to date. When it does, the only thing sent is the public code of what you own
+&mdash; for example <code>JFC</code>, <code>AAPL</code>, <code>BTC</code>, or
+<code>USD</code>. Your amounts, how much you own, your balances, your identity,
+and everything else you have entered stay on your device and are never sent.</p>
+<p>These lookups go to public market-data services: CoinGecko for crypto, the
+European Central Bank rates published by Frankfurter for currencies, phisix for
+Philippine Stock Exchange listings, and Yahoo Finance for United States listings.
+No account is used and no key identifies you, so these services receive an
+anonymous request for a public price. When you search for a stock or coin by name,
+the words you type are sent in the same way so results can be returned.</p>
+<p>This is optional. Every investment account has a <em>Live prices</em> switch,
+and turning it off stops all price lookups; your investments then show what you paid.
+If you do not track investments, Fern makes no price requests at all.</p>
 
 <h2>Exporting your data</h2>
 <p>Fern can create CSV exports and JSON backups, and can restore from a JSON
